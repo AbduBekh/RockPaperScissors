@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>2nd_Project</title>
+  </head>
+  <header>
+    <h1>Rock Paper Scissors</h1>
+    <div id="scoreboard">
+      <div class="player-score">
+        <h2>Player</h2>
+        <p id="player-score">0</p>
+      </div>
+      <div class="computer-score">
+        <h2>Computer</h2>
+        <p id="computer-score">0</p>
+      </div>
+    </div>
+  </header>
+  <body>
+    <section class="container2" id="container2">
+      <div class="choice" id="rock" onclick="chooseRock()">
+        <button>ROCK</button>
+      </div>
+      <div class="choice" id="paper" onclick="choosePaper()">
+        <button>PAPER</button>
+      </div>
+      <div class="choice" id="scissors" onclick="chooseScissors()">
+        <button>SCISSORS</button>
+      </div>
+    </section>
+    <div><button id="reset">RESET</button></div>
+    <script src="myScript.js"></script>
+  </body>
+</html>
